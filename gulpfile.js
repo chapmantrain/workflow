@@ -31,3 +31,9 @@ gulp.task('compass', function() {
       style: 'expanded'
     }))
 });
+
+gulp.task("default", ['compass', 'js']);
+
+gulp.task('watch', function() {
+  gulp.watch(sassSources)
+});
