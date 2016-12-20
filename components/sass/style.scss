@@ -16,5 +16,5 @@
 @import "rclick";
 
 .test-color {
-  device-cmyk(0, .55, 1, .1);
+  background-color: device-cmyk(0, .55, 1, .1);
 }
